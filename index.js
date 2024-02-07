@@ -137,10 +137,3 @@ function renderScore(){
         scoreEl.textContent = `You're a Champion`
     }
 }
-
-//Bonus
-//Move Hero Up and down
-//Move enemies left and right as they move down
-//Add Score
-//use different missiles
-
