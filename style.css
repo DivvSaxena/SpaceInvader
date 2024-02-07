@@ -1,84 +1,82 @@
-
-@font-face{
-    font-family: robusfont;
-    src: url('./assets/fonts/SamuraiBlast-YznGj.ttf');
+@font-face {
+  font-family: robusfont;
+  src: url("./assets/fonts/SamuraiBlast-YznGj.ttf");
 }
 
-body::-webkit-scrollbar {display: none;} /* Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+} /* Chrome, Safari and Opera */
 
-
-
-body{
-    margin: 0 auto;
-    background-color: black;
+body {
+  margin: 0 auto;
+  background-color: black;
 }
 
-.game-play{
-    font-family: robusfont;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+.game-play {
+  font-family: robusfont;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-#background{
-    background: url('./assets/background2.png');
-    background-size: cover;
-    height: 900px;
-    width: 1200px;
-    margin: 1.25em;
+#background {
+  background: url("./assets/background2.png");
+  background-size: cover;
+  height: 800px;
+  width: 1200px;
+  margin: 1.25em;
 }
 
-#hero{
-    background: url('./assets/hero2.png');
-    background-size: cover;
-    height: 50px;
-    width: 50px;
-    position: relative;
-    top: 650px;
-    left: 550px;
+#hero {
+  background: url("./assets/hero2.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 700px;
+  left: 550px;
 }
 
-.enemy{
-    background: url('./assets/enemy2.png');
-    background-size: cover;
-    height: 50px;
-    width: 50px;
-    position: absolute;
+.enemy {
+  background: url("./assets/enemy2.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  position: absolute;
 }
 
-#missiles{
-    height: 500px;
-    width: 1200px;
-    position: absolute;
+#missiles {
+  height: 500px;
+  width: 1200px;
+  position: absolute;
 }
 
-.missile{
-    background: url('./assets/missile3.png');
-    height: 16px;
-    width: 10px;
-    position: absolute;
+.missile {
+  background: url("./assets/missile3.png");
+  height: 16px;
+  width: 10px;
+  position: absolute;
 }
 
-#enemies{
-    height: 500px;
-    width: 1200px;
-    position: absolute;
+#enemies {
+  height: 500px;
+  width: 1200px;
+  position: absolute;
 }
 
-.gamescores{
-    text-align: center;
+.gamescores {
+  text-align: center;
 }
 
-.heading{
-    font-size: 5rem;
-    margin-bottom: 0;
-    margin-top: 10px;
+.heading {
+  font-size: 5rem;
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 
-#score{
-    font-size: 4rem;
-    margin: 0;
+#score {
+  font-size: 4rem;
+  margin: 0;
 }
